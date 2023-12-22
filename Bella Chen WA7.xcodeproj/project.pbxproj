@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8B6BDF990197280429607ED /* Pods_Bella_Chen_WA7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094F028E546A49E23D0DF074 /* Pods_Bella_Chen_WA7.framework */; };
+		FA8F2D172AF98B7F000482AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D162AF98B7F000482AA /* AppDelegate.swift */; };
+		FA8F2D192AF98B7F000482AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D182AF98B7F000482AA /* SceneDelegate.swift */; };
+		FA8F2D1B2AF98B7F000482AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D1A2AF98B7F000482AA /* ViewController.swift */; };
+		FA8F2D1E2AF98B7F000482AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8F2D1C2AF98B7F000482AA /* Main.storyboard */; };
+		FA8F2D202AF98B81000482AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8F2D1F2AF98B81000482AA /* Assets.xcassets */; };
+		FA8F2D232AF98B81000482AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8F2D212AF98B81000482AA /* LaunchScreen.storyboard */; };
+		FA8F2D2B2AF98B9F000482AA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D2A2AF98B9F000482AA /* MainView.swift */; };
+		FA8F2D2D2AF98CE3000482AA /* APIConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D2C2AF98CE3000482AA /* APIConfigs.swift */; };
+		FA8F2D2F2AF98CFB000482AA /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D2E2AF98CFB000482AA /* Validation.swift */; };
+		FA8F2D312AF98D29000482AA /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D302AF98D29000482AA /* Token.swift */; };
+		FA8F2D342AF98E70000482AA /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D332AF98E70000482AA /* NotesViewController.swift */; };
+		FA8F2D362AF98E91000482AA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D352AF98E91000482AA /* SignUpViewController.swift */; };
+		FA8F2D392AF99036000482AA /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D382AF99036000482AA /* NotesView.swift */; };
+		FA8F2D3B2AF99048000482AA /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D3A2AF99048000482AA /* SignUpView.swift */; };
+		FA8F2D3F2AF9916C000482AA /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D3E2AF9916C000482AA /* NotesTableViewCell.swift */; };
+		FA8F2D432AF99221000482AA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D422AF99221000482AA /* ProfileView.swift */; };
+		FA8F2D452AF9923E000482AA /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D442AF9923E000482AA /* AddNoteView.swift */; };
+		FA8F2D472AF99269000482AA /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D462AF99269000482AA /* AddNoteViewController.swift */; };
+		FA8F2D492AF99277000482AA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D482AF99277000482AA /* ProfileViewController.swift */; };
+		FA8F2D4D2AF99300000482AA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D4C2AF99300000482AA /* User.swift */; };
+		FA8F2D4F2AF99310000482AA /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D4E2AF99310000482AA /* Notes.swift */; };
+		FA8F2D512AF995DA000482AA /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D502AF995DA000482AA /* NotificationNames.swift */; };
+		FA8F2D532AF99950000482AA /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F2D522AF99950000482AA /* DeleteButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		094F028E546A49E23D0DF074 /* Pods_Bella_Chen_WA7.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bella_Chen_WA7.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		619D8FC4B7E62BDAD3E9CBA9 /* Pods-Bella Chen WA7.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bella Chen WA7.release.xcconfig"; path = "Target Support Files/Pods-Bella Chen WA7/Pods-Bella Chen WA7.release.xcconfig"; sourceTree = "<group>"; };
+		C76F3A4CF2D6337425C017C7 /* Pods-Bella Chen WA7.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bella Chen WA7.debug.xcconfig"; path = "Target Support Files/Pods-Bella Chen WA7/Pods-Bella Chen WA7.debug.xcconfig"; sourceTree = "<group>"; };
+		FA8F2D132AF98B7F000482AA /* Bella Chen WA7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bella Chen WA7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8F2D162AF98B7F000482AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA8F2D182AF98B7F000482AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA8F2D1A2AF98B7F000482AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA8F2D1D2AF98B7F000482AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA8F2D1F2AF98B81000482AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA8F2D222AF98B81000482AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA8F2D242AF98B81000482AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8F2D2A2AF98B9F000482AA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FA8F2D2C2AF98CE3000482AA /* APIConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfigs.swift; sourceTree = "<group>"; };
+		FA8F2D2E2AF98CFB000482AA /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		FA8F2D302AF98D29000482AA /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		FA8F2D332AF98E70000482AA /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		FA8F2D352AF98E91000482AA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FA8F2D382AF99036000482AA /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		FA8F2D3A2AF99048000482AA /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		FA8F2D3E2AF9916C000482AA /* NotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
+		FA8F2D422AF99221000482AA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FA8F2D442AF9923E000482AA /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
+		FA8F2D462AF99269000482AA /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		FA8F2D482AF99277000482AA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FA8F2D4C2AF99300000482AA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA8F2D4E2AF99310000482AA /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		FA8F2D502AF995DA000482AA /* NotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
+		FA8F2D522AF99950000482AA /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA8F2D102AF98B7F000482AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B6BDF990197280429607ED /* Pods_Bella_Chen_WA7.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		380436DA8DB416ACCE367272 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C76F3A4CF2D6337425C017C7 /* Pods-Bella Chen WA7.debug.xcconfig */,
+				619D8FC4B7E62BDAD3E9CBA9 /* Pods-Bella Chen WA7.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE061D287333240FB1DB198B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				094F028E546A49E23D0DF074 /* Pods_Bella_Chen_WA7.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA8F2D0A2AF98B7F000482AA = {
+			isa = PBXGroup;
+			children = (
+				FA8F2D152AF98B7F000482AA /* Bella Chen WA7 */,
+				FA8F2D142AF98B7F000482AA /* Products */,
+				380436DA8DB416ACCE367272 /* Pods */,
+				BE061D287333240FB1DB198B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8F2D142AF98B7F000482AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8F2D132AF98B7F000482AA /* Bella Chen WA7.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8F2D152AF98B7F000482AA /* Bella Chen WA7 */ = {
+			isa = PBXGroup;
+			children = (
+				FA8F2D162AF98B7F000482AA /* AppDelegate.swift */,
+				FA8F2D182AF98B7F000482AA /* SceneDelegate.swift */,
+				FA8F2D372AF99014000482AA /* Data Models */,
+				FA8F2D4A2AF9927F000482AA /* Profile Screen */,
+				FA8F2D4B2AF9928D000482AA /* Add Note Screen */,
+				FA8F2D322AF98E41000482AA /* Main Login Screen */,
+				FA8F2D3C2AF99052000482AA /* Notes Screen */,
+				FA8F2D3D2AF99060000482AA /* SignUp Screen */,
+				FA8F2D1C2AF98B7F000482AA /* Main.storyboard */,
+				FA8F2D1F2AF98B81000482AA /* Assets.xcassets */,
+				FA8F2D212AF98B81000482AA /* LaunchScreen.storyboard */,
+				FA8F2D242AF98B81000482AA /* Info.plist */,
+			);
+			path = "Bella Chen WA7";
+			sourceTree = "<group>";
+		};
+		FA8F2D322AF98E41000482AA /* Main Login Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FA8F2D2A2AF98B9F000482AA /* MainView.swift */,
+				FA8F2D1A2AF98B7F000482AA /* ViewController.swift */,
+			);
+			path = "Main Login Screen";
+			sourceTree = "<group>";
+		};
+		FA8F2D372AF99014000482AA /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA8F2D2C2AF98CE3000482AA /* APIConfigs.swift */,
+				FA8F2D4C2AF99300000482AA /* User.swift */,
+				FA8F2D4E2AF99310000482AA /* Notes.swift */,
+				FA8F2D2E2AF98CFB000482AA /* Validation.swift */,
+				FA8F2D522AF99950000482AA /* DeleteButton.swift */,
+				FA8F2D302AF98D29000482AA /* Token.swift */,
+				FA8F2D502AF995DA000482AA /* NotificationNames.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		FA8F2D3C2AF99052000482AA /* Notes Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FA8F2D382AF99036000482AA /* NotesView.swift */,
+				FA8F2D332AF98E70000482AA /* NotesViewController.swift */,
+				FA8F2D3E2AF9916C000482AA /* NotesTableViewCell.swift */,
+			);
+			path = "Notes Screen";
+			sourceTree = "<group>";
+		};
+		FA8F2D3D2AF99060000482AA /* SignUp Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FA8F2D3A2AF99048000482AA /* SignUpView.swift */,
+				FA8F2D352AF98E91000482AA /* SignUpViewController.swift */,
+			);
+			path = "SignUp Screen";
+			sourceTree = "<group>";
+		};
+		FA8F2D4A2AF9927F000482AA /* Profile Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FA8F2D422AF99221000482AA /* ProfileView.swift */,
+				FA8F2D482AF99277000482AA /* ProfileViewController.swift */,
+			);
+			path = "Profile Screen";
+			sourceTree = "<group>";
+		};
+		FA8F2D4B2AF9928D000482AA /* Add Note Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FA8F2D442AF9923E000482AA /* AddNoteView.swift */,
+				FA8F2D462AF99269000482AA /* AddNoteViewController.swift */,
+			);
+			path = "Add Note Screen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA8F2D122AF98B7F000482AA /* Bella Chen WA7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8F2D272AF98B81000482AA /* Build configuration list for PBXNativeTarget "Bella Chen WA7" */;
+			buildPhases = (
+				D3A294AF74AF7E8994F822D9 /* [CP] Check Pods Manifest.lock */,
+				FA8F2D0F2AF98B7F000482AA /* Sources */,
+				FA8F2D102AF98B7F000482AA /* Frameworks */,
+				FA8F2D112AF98B7F000482AA /* Resources */,
+				5CD1E04E4E888EA2E9D93ED8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bella Chen WA7";
+			productName = "Bella Chen WA7";
+			productReference = FA8F2D132AF98B7F000482AA /* Bella Chen WA7.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA8F2D0B2AF98B7F000482AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FA8F2D122AF98B7F000482AA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FA8F2D0E2AF98B7F000482AA /* Build configuration list for PBXProject "Bella Chen WA7" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA8F2D0A2AF98B7F000482AA;
+			productRefGroup = FA8F2D142AF98B7F000482AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8F2D122AF98B7F000482AA /* Bella Chen WA7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA8F2D112AF98B7F000482AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8F2D232AF98B81000482AA /* LaunchScreen.storyboard in Resources */,
+				FA8F2D202AF98B81000482AA /* Assets.xcassets in Resources */,
+				FA8F2D1E2AF98B7F000482AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CD1E04E4E888EA2E9D93ED8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bella Chen WA7/Pods-Bella Chen WA7-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bella Chen WA7/Pods-Bella Chen WA7-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bella Chen WA7/Pods-Bella Chen WA7-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3A294AF74AF7E8994F822D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bella Chen WA7-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA8F2D0F2AF98B7F000482AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8F2D1B2AF98B7F000482AA /* ViewController.swift in Sources */,
+				FA8F2D432AF99221000482AA /* ProfileView.swift in Sources */,
+				FA8F2D312AF98D29000482AA /* Token.swift in Sources */,
+				FA8F2D392AF99036000482AA /* NotesView.swift in Sources */,
+				FA8F2D532AF99950000482AA /* DeleteButton.swift in Sources */,
+				FA8F2D2B2AF98B9F000482AA /* MainView.swift in Sources */,
+				FA8F2D4F2AF99310000482AA /* Notes.swift in Sources */,
+				FA8F2D172AF98B7F000482AA /* AppDelegate.swift in Sources */,
+				FA8F2D492AF99277000482AA /* ProfileViewController.swift in Sources */,
+				FA8F2D4D2AF99300000482AA /* User.swift in Sources */,
+				FA8F2D512AF995DA000482AA /* NotificationNames.swift in Sources */,
+				FA8F2D3B2AF99048000482AA /* SignUpView.swift in Sources */,
+				FA8F2D342AF98E70000482AA /* NotesViewController.swift in Sources */,
+				FA8F2D472AF99269000482AA /* AddNoteViewController.swift in Sources */,
+				FA8F2D2D2AF98CE3000482AA /* APIConfigs.swift in Sources */,
+				FA8F2D362AF98E91000482AA /* SignUpViewController.swift in Sources */,
+				FA8F2D2F2AF98CFB000482AA /* Validation.swift in Sources */,
+				FA8F2D192AF98B7F000482AA /* SceneDelegate.swift in Sources */,
+				FA8F2D452AF9923E000482AA /* AddNoteView.swift in Sources */,
+				FA8F2D3F2AF9916C000482AA /* NotesTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA8F2D1C2AF98B7F000482AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8F2D1D2AF98B7F000482AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA8F2D212AF98B81000482AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8F2D222AF98B81000482AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA8F2D252AF98B81000482AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA8F2D262AF98B81000482AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA8F2D282AF98B81000482AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C76F3A4CF2D6337425C017C7 /* Pods-Bella Chen WA7.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bella Chen WA7/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "northeastern.edu.Bella-Chen-WA7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA8F2D292AF98B81000482AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 619D8FC4B7E62BDAD3E9CBA9 /* Pods-Bella Chen WA7.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bella Chen WA7/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "northeastern.edu.Bella-Chen-WA7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA8F2D0E2AF98B7F000482AA /* Build configuration list for PBXProject "Bella Chen WA7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8F2D252AF98B81000482AA /* Debug */,
+				FA8F2D262AF98B81000482AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8F2D272AF98B81000482AA /* Build configuration list for PBXNativeTarget "Bella Chen WA7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8F2D282AF98B81000482AA /* Debug */,
+				FA8F2D292AF98B81000482AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA8F2D0B2AF98B7F000482AA /* Project object */;
+}
